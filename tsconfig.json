@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "target": "esnext",
+    "module": "esnext",
+    "declaration": true,
+    "pretty": true,
+    "skipLibCheck": true,
+    "noImplicitAny": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "preserveConstEnums": true
+  },
+  "include": [
+    "src/**/*",
+    "cypres/*",
+    "index.ts"
+  ],
+  "exclude": ["node_modules"],
+  "baseUrl": ".",
+  "paths": {
+    "@src/*": ["/src/*"]
+  },
+}
